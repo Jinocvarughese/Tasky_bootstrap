@@ -67,6 +67,7 @@ const saveChanges = () => {
 };
 
 const deleteCard = (event) => {
+  //event will have your browser related properties and html element
   event = window.event;
   //id
 const targetID = event.target.id;
